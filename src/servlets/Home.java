@@ -43,6 +43,11 @@ public class Home extends HttpServlet {
     }
 
     @Override
+    public void destroy() {
+        //  --- save into file
+    }
+
+    @Override
     public String getServletInfo() {
         return "To load courses";
     }
